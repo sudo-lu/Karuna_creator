@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    height: 9500px;
+    width: 100%;
+    background-color: rgb(40, 3, 3);
+}
+
+#navbarNav {
+    margin-left: 37%;
+}
+
+.navbar {
+    background-color: rgb(24, 158, 74) !important;
+}
+
+
+
+

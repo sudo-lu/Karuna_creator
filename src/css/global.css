@@ -15,9 +15,120 @@ body {
     margin-left: 37%;
 }
 
-.navbar {
-    background-color: rgb(24, 158, 74) !important;
+/*    INTRO     */
+
+.content_intro {
+    background-image: url(../img/fundo\ tela\ inicial.png);
+    background-color: rgb(32, 17, 46);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+
+}
+
+.logo_intro {
+    height: 8rem;
+}
+
+.inscrever {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 3rem;
+    background-color: rgb(229, 189, 10);
+    font-weight: 700;
+    font-size: large;
 }
 
 
+/*  PRA QUEM */
 
+.cabecalho {
+    height: 4rem;
+    background-color: #591212;
+}
+
+.content_pra_quem {
+    height: 40rem;
+    background-color: #1C0909;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5rem;
+    gap: 2rem;
+}
+
+.titulo_pra_quem {
+    color: #E1AC54;
+    font-size: 3rem;
+}
+
+.conteudo_pra_quem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #1C0909;
+}
+
+.frame_pra_quem {
+    height: 25rem;
+    width: 25rem;
+    background-color: #591212;
+    border-radius: 1rem;
+}
+
+/*  O QUE VAI APRENDER */
+
+.o_que_vai_aprender {
+    height: 90rem;
+    background: linear-gradient(0deg, #431414, #1C0909);
+}
+
+.aprender_content_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 55px;
+}
+
+.frame_aprender {
+    height: 35rem;
+    width: 25rem;
+    border-radius: 1.5rem;
+}
+
+.aprender_foto_1 {
+    background-image: url(../img/tatoo1\ 1.png);
+}
+
+.aprender_foto_2 {
+    background-image: url(../img/tatoo2\ 1.png);
+}
+
+.frame_aprender_texto {
+    height: 35rem;
+    width: 35rem;
+    font-size: 30px;
+}
+
+.frame_aprender_texto li {
+    margin: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carouselExampleIndicators {
+    height: 50rem;
+    width: 80%;
+}

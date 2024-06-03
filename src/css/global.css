@@ -116,6 +116,7 @@ body {
     height: 35rem;
     width: 35rem;
     font-size: 30px;
+    color:  rgb(229, 189, 10);
 }
 
 .frame_aprender_texto li {
@@ -129,6 +130,73 @@ body {
 }
 
 #carouselExampleIndicators {
-    height: 50rem;
+    height: 40rem;
     width: 80%;
+}
+
+
+/*  DIFERENCIAIS DO CURSO */
+
+.cabecalho_diferenciais {
+    height: 4rem;
+    background-color:  rgb(229, 189, 10);
+}
+
+.content_diferenciais {
+    height: 40rem;
+    background-image: url(../img/flashs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    height: 90%;
+    width: 45%;
+    background-color: #e1ab5488;
+    border-radius: 2rem;
+}
+.botao_diferenciais{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 4rem;
+}
+
+.conteudo_lista li {
+    font-size: 1.6rem;
+    margin: 1.2rem;
+    font-weight: 700;
+}
+
+
+
+/*  CONSOLIDAÇÃO DA MARCA    */
+
+.cabecalho_consolidacao {
+    height: 4rem;
+    background-color: #591212;
+}
+
+.content_consolidacao {
+    background-image: linear-gradient(to right, transparent 0%, #000000 70%, #000000 80%, #000000 90%,  #000000 100%), url(../img/tatuador_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pq_sou_melhor {
+    height: 100%;
+    width: 50%;
+    background-color: #5912129a;
+    border-radius: 3rem;
+    
 }

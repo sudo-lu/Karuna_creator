@@ -373,3 +373,124 @@ body {
     position: absolute;
     text-align: center;
 }
+
+
+/* COMUNIDADE PERTENCIMENTO */
+
+.comunidade {
+    height: 50rem;
+    width: 100%;
+    background-color: #431414;
+}
+
+.cabecalho_comunidade {
+    height: 4rem;
+    background-color: #591212;
+    color: #431414;
+}
+
+.conteiner_comunidade {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem 20rem;
+    grid-template-areas: 
+    "item_1 item_2"
+    "item_3 item_4";
+}
+
+.item_comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0 0rem 0;
+}
+
+.foto_comunidade {
+    height: 15rem;
+    width: 22rem;
+    background-color: #E1AC54;
+    border-radius: 2rem;
+
+}
+
+/* QUEM É karuna creator */
+
+.quem_eh {
+    width: 100%;
+    height: 40rem;
+    background-color: #431414;
+}
+
+
+.cabecalho_quem_eh {
+    height: 4rem;
+    background-color: #591212;
+    color: #E1AC54;
+}
+
+.container_quem_eh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+}
+
+.texto_quem_eh {
+    width: 55%;
+}
+
+.foto_quem_eh {
+    background-image: url("/src/img/tatuador.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 36rem;
+}
+
+
+/* perguntas */
+
+.cabecalho_perguntas {
+    height: 4rem;
+    background-color: #591212;
+    color: #E1AC54;
+}
+
+.perguntas {
+    background-color: #431414;
+}
+
+.card_perguntas {
+    width: 90%;
+    height: 60%;
+    margin: 2rem auto;
+}
+
+.pergunta {
+    background-color: #591212;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+.logo {
+    height: 8rem;
+    width: 20rem;
+    background-image: url("/src/img/pseudo_logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.botoes_pergunta {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.logo {
+    margin: auto;
+}

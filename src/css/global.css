@@ -200,3 +200,176 @@ body {
     border-radius: 3rem;
     
 }
+
+.linha {
+    background-color: rgb(229, 189, 10);
+    height: 2px;
+    width: 100%;
+
+}
+
+
+/* REFORCO PONTO POSITIVOS */
+
+.reforco {
+    text-align: center;
+    color: rgb(229, 189, 10);
+    height: 35rem;
+    background: linear-gradient(#140b0b, #431414, #431414) ;
+    padding: 2rem;
+}
+
+.compre_por_isso{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.caps {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.caixa_foto{
+    height: 12rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-color: #591212;
+    margin-bottom: 2rem;
+}
+
+
+/* ACESSAR CONTEUDO */
+
+.cabecalho_acessar{
+    height: 4rem;
+    background-color: #591212;
+}
+
+.acessar_o_conteudo {
+    background: linear-gradient(360deg, #140b0b, #431414, #431414) ;
+    height: 25rem;
+}
+
+
+/* PROVA SOCIAL */
+
+.prova_social {
+    background-color: #431414;
+    color: aliceblue;
+}
+
+.cabecalho_prova_social {
+    height: 4rem;
+    background-color: #E1AC54;
+    margin-bottom: 4rem;
+}
+
+.span_prova_social{
+    margin-top: 3rem;
+    display: flex;
+    gap: 8rem;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+    height: 25rem;
+}
+
+.conteiner_compre_por_isso {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.caixa_prova_social{
+    height: 12rem;
+    width: 18rem;
+    border-radius: 1rem;
+    background-color: #591212;
+    margin-bottom: 2rem;
+}
+
+.botoes_prova {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+
+/* DIVISAO DOS MODULOS */
+
+.cabecalho_divisao_modulos {
+    height: 4rem;
+    background-color: #591212;
+    color: #E1AC54;
+    margin-bottom: 4rem;
+}
+
+.divisao_modulos {
+    height: 50rem;
+    background-color: #431414;
+}
+
+.modulos {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 75%;
+    height: 13rem;
+    margin: auto;
+}
+
+.span_modulo {
+    display: flex;
+    gap: 2rem;
+    color: aliceblue;
+}
+
+.imagem_modulo {
+    height: 11rem;
+    width: 17rem;
+    border-radius: 1rem;
+    background-color: #E1AC54;
+}
+
+
+/* COMPRE AGORA */
+
+.cabecalho_compre_agora {
+    height: 4rem;
+    background-color: #E1AC54;
+    color: #591212;
+}
+
+.container_compre_agora {
+    height: 40rem;
+    background-color: #1C0909;
+    padding-top: 3rem;
+}
+
+.diferenciais_compre_agora {
+    height: 34rem;
+    width: 80%;
+    margin: auto;
+    background-color: #591212;
+    border-radius: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+}
+
+.beneficios {
+    background-color: #E1AC54;
+    width: 90vw;
+    height: 60%;
+    top: 5rem;
+    left: -5rem;
+    position: absolute;
+    text-align: center;
+}

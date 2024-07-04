@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+.cabecalho {
+  height: 4rem;
+  background-color: #43052c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cabecalho_detalhe {
+  height: 1.2px;
+  background: radial-gradient(circle, #98427a 0%, #330523 30%, #330523 100%);
+  background-size: 300% 300%;
+  animation: gradiente_cabecalho 7s infinite;
+}
+@keyframes gradiente_cabecalho {
+  0%{
+    background-position: 15% 50%;
+  }
+  50%{
+    background-position: 85% 50%;
+  }
+  100%{
+    background-position: 15% 50%;
+  }
+  
+}
+
+.cabecalho h3 {
+  font-family: "Playwrite DE Grund", cursive;
+  color: #e0920a;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  position: relative;
+  font-weight: 400;
+  
+  animation: tracking-in-expand 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both infinite; 
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: 0.2em;
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.6;
+    letter-spacing: 1em;
+  }
+  
+  60% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: 0.2em;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,15 @@
+roxo claro
+	#43052c
+
+roxo escuro
+	#330523
+
+rosa
+	#98427a
+
+
+amarelo 
+	#e0920a
+
+amarelo claro
+	E1D89F

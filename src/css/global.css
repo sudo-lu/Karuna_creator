@@ -102,7 +102,7 @@ body {
 
 .o_que_vai_aprender {
     height: 90rem;
-    background: linear-gradient(0deg, #43052c, #330523);
+    background: linear-gradient(0deg, #200115, #330523);
 }
 
 .aprender_content_1 {
@@ -222,21 +222,16 @@ body {
     
 }
 
-.linha {
-    background-color: rgb(229, 189, 10);
-    height: 2px;
-    width: 100%;
 
-}
 
 
 /* REFORCO PONTO POSITIVOS */
 
 .reforco {
     text-align: center;
-    color: rgb(229, 189, 10);
+    color: #98427a;
     height: 35rem;
-    background: linear-gradient(#140b0b, #431414, #431414) ;
+    background: linear-gradient(0deg, #200115, #330523);
     padding: 2rem;
 }
 
@@ -258,7 +253,8 @@ body {
     height: 12rem;
     width: 15rem;
     border-radius: 1rem;
-    background-color: #591212;
+    background-color: #43052c;
+    border: solid 1px #98427a;
     margin-bottom: 2rem;
 }
 
@@ -271,7 +267,7 @@ body {
 }
 
 .acessar_o_conteudo {
-    background: linear-gradient(360deg, #140b0b, #431414, #431414) ;
+    background: linear-gradient(180deg, #200115, #330523);
     height: 25rem;
 }
 
@@ -279,8 +275,8 @@ body {
 /* PROVA SOCIAL */
 
 .prova_social {
-    background-color: #431414;
-    color: aliceblue;
+    background: linear-gradient(0deg, #200115, #330523);
+    color: #98427a;
 }
 
 .cabecalho_prova_social {
@@ -310,7 +306,8 @@ body {
     height: 12rem;
     width: 18rem;
     border-radius: 1rem;
-    background-color: #591212;
+    background-color: #43052c;
+    border: solid 1px #98427a;
     margin-bottom: 2rem;
 }
 
@@ -331,7 +328,7 @@ body {
 
 .divisao_modulos {
     height: 50rem;
-    background-color: #431414;
+    background: linear-gradient(0deg, #200115, #330523);
 }
 
 .modulos {
@@ -346,14 +343,15 @@ body {
 .span_modulo {
     display: flex;
     gap: 2rem;
-    color: aliceblue;
+    color: #98427a;
 }
 
 .imagem_modulo {
     height: 11rem;
     width: 17rem;
     border-radius: 1rem;
-    background-color: #E1AC54;
+    background-color: #43052c;
+    border: solid 1px #98427a;
 }
 
 
@@ -375,7 +373,7 @@ body {
     height: 34rem;
     width: 80%;
     margin: auto;
-    background-color: #591212;
+    background-color: #330523;
     border-radius: 1.5rem;
     position: relative;
     display: flex;
@@ -386,9 +384,10 @@ body {
 }
 
 .beneficios {
-    background-color: #E1AC54;
+    background-color: #43052c;
     width: 90vw;
     height: 60%;
+    margin: auto;
     top: 5rem;
     left: -5rem;
     position: absolute;
@@ -401,7 +400,7 @@ body {
 .comunidade {
     height: 50rem;
     width: 100%;
-    background-color: #431414;
+    background: linear-gradient(0deg, #200115, #330523);
 }
 
 .cabecalho_comunidade {
@@ -431,7 +430,8 @@ body {
 .foto_comunidade {
     height: 15rem;
     width: 22rem;
-    background-color: #E1AC54;
+    background-color: #43052c;
+    border: 1px solid #98427a;
     border-radius: 2rem;
 
 }
@@ -441,7 +441,7 @@ body {
 .quem_eh {
     width: 100%;
     height: 40rem;
-    background-color: #431414;
+    background: linear-gradient(0deg, #200115, #330523);
 }
 
 
@@ -461,6 +461,7 @@ body {
 
 .texto_quem_eh {
     width: 55%;
+    color: #98427a;
 }
 
 .foto_quem_eh {
@@ -481,7 +482,7 @@ body {
 }
 
 .perguntas {
-    background-color: #431414;
+    background: linear-gradient(0deg, #200115, #330523);
 }
 
 .card_perguntas {
@@ -491,7 +492,8 @@ body {
 }
 
 .pergunta {
-    background-color: #591212;
+    background-color: #43052c;
+    border: solid 1px #98427a;
     height: 3rem;
     width: 100%;
     margin-bottom: 1rem;

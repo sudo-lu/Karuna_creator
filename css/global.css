@@ -45,6 +45,7 @@ body {
     font-size: large;
     color: #330523;
     animation: drop_shadow_botao 2s both infinite;
+    margin: 0 auto;
 }
 
 @keyframes drop_shadow_botao {
@@ -96,6 +97,7 @@ body {
     color: #98427a;
     background-color: #43052c;
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*  O QUE VAI APRENDER */
@@ -120,10 +122,14 @@ body {
 
 .aprender_foto_1 {
     background-image: url(../img/tatoo1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .aprender_foto_2 {
     background-image: url(../img/tatoo2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .frame_aprender_texto {
@@ -141,22 +147,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 .carousel-item {
-    height: 25rem;
+    height: 20rem;
     width: 100%;
 }
 
+.foto_carrosel {
+    background-image: url("/img/tatoo2\ 1.png");
+    height: 33rem;
+    width: 70%;
+}
+
+._aprender {
+    margin-top: 3.5rem;
+}
 
 
 /*  DIFERENCIAIS DO CURSO */
-
-.cabecalho_diferenciais {
-    height: 4rem;
-    background-color:  rgb(229, 189, 10);
-}
 
 .content_diferenciais {
     height: 30rem;
@@ -195,14 +204,9 @@ body {
 
 /*  CONSOLIDAÇÃO DA MARCA    */
 
-.cabecalho_consolidacao {
-    height: 4rem;
-    background-color: #591212;
-}
-
 .content_consolidacao {
     /* background-image: linear-gradient(to right, transparent 0%, #000000 70%, #000000 80%, #000000 90%,  #000000 100%), url(../img/tatuador_2.jpg); */
-    background-image: url("/src/img/tatuador_2.png");
+    background-image: url("/img/tatuador_2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
@@ -230,7 +234,7 @@ body {
 .reforco {
     text-align: center;
     color: #98427a;
-    height: 35rem;
+    height: 40rem;
     background: linear-gradient(0deg, #200115, #330523);
     padding: 2rem;
 }
@@ -256,19 +260,27 @@ body {
     background-color: #43052c;
     border: solid 1px #98427a;
     margin-bottom: 2rem;
+    transition: 1s ease-in-out;
+}
+
+.caixa_foto:hover {
+    height: 14rem;
+    width: 17rem;
 }
 
 
 /* ACESSAR CONTEUDO */
 
-.cabecalho_acessar{
-    height: 4rem;
-    background-color: #591212;
-}
 
 .acessar_o_conteudo {
     background: linear-gradient(180deg, #200115, #330523);
     height: 25rem;
+}
+
+.acessar_o_conteudo h3 {
+    font-size: 2rem;
+    padding: 3rem;
+    color: #98427a;
 }
 
 
@@ -277,12 +289,7 @@ body {
 .prova_social {
     background: linear-gradient(0deg, #200115, #330523);
     color: #98427a;
-}
-
-.cabecalho_prova_social {
-    height: 4rem;
-    background-color: #E1AC54;
-    margin-bottom: 4rem;
+    height: 50rem;
 }
 
 .span_prova_social{
@@ -290,7 +297,7 @@ body {
     display: flex;
     gap: 8rem;
     justify-content: space-evenly;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     height: 25rem;
 }
 
@@ -313,18 +320,17 @@ body {
 
 .botoes_prova {
     text-align: center;
+    margin: auto;
     padding-bottom: 4rem;
 }
 
+.prova_social h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
 
 /* DIVISAO DOS MODULOS */
 
-.cabecalho_divisao_modulos {
-    height: 4rem;
-    background-color: #591212;
-    color: #E1AC54;
-    margin-bottom: 4rem;
-}
 
 .divisao_modulos {
     height: 50rem;
@@ -337,7 +343,7 @@ body {
     gap: 3rem;
     width: 75%;
     height: 13rem;
-    margin: auto;
+    margin: 3rem auto;
 }
 
 .span_modulo {
@@ -357,20 +363,14 @@ body {
 
 /* COMPRE AGORA */
 
-.cabecalho_compre_agora {
-    height: 4rem;
-    background-color: #E1AC54;
-    color: #591212;
-}
-
 .container_compre_agora {
-    height: 40rem;
+    height: 43rem;
     background-color: #1C0909;
     padding-top: 3rem;
 }
 
 .diferenciais_compre_agora {
-    height: 34rem;
+    height: 38rem;
     width: 80%;
     margin: auto;
     background-color: #330523;
@@ -398,15 +398,9 @@ body {
 /* COMUNIDADE PERTENCIMENTO */
 
 .comunidade {
-    height: 50rem;
+    height: 56rem;
     width: 100%;
     background: linear-gradient(0deg, #200115, #330523);
-}
-
-.cabecalho_comunidade {
-    height: 4rem;
-    background-color: #591212;
-    color: #431414;
 }
 
 .conteiner_comunidade {
@@ -417,15 +411,39 @@ body {
     grid-template-rows: 20rem 20rem;
     grid-template-areas: 
     "item_1 item_2"
-    "item_3 item_4";
+    "item_3 item_4"
 }
 
-.item_comunidade {
+.item_comunidade #item_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1.5rem 0 0rem 0;
+    grid-area: item_1;
 }
+.item_comunidade #item_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0 0rem 0;
+    grid-area: item_2;
+}
+.item_comunidade #item_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0 0rem 0;
+    grid-area: item_3;
+}
+.item_comunidade #item_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0 0rem 0;
+    grid-area: item_4;
+}
+
 
 .foto_comunidade {
     height: 15rem;
@@ -433,7 +451,10 @@ body {
     background-color: #43052c;
     border: 1px solid #98427a;
     border-radius: 2rem;
+}
 
+.comunidade button {
+    margin: auto;
 }
 
 /* QUEM É karuna creator */
@@ -442,13 +463,6 @@ body {
     width: 100%;
     height: 40rem;
     background: linear-gradient(0deg, #200115, #330523);
-}
-
-
-.cabecalho_quem_eh {
-    height: 4rem;
-    background-color: #591212;
-    color: #E1AC54;
 }
 
 .container_quem_eh {
@@ -464,22 +478,22 @@ body {
     color: #98427a;
 }
 
+.texto_quem_eh h3 {
+    padding: 3rem;
+
+}
+
 .foto_quem_eh {
-    background-image: url("/src/img/tatuador.jpg");
+    background-image: url("/img/tatuador.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 45%;
-    height: 36rem;
+    height: 35rem;
 }
 
 
 /* perguntas */
 
-.cabecalho_perguntas {
-    height: 4rem;
-    background-color: #591212;
-    color: #E1AC54;
-}
 
 .perguntas {
     background: linear-gradient(0deg, #200115, #330523);
